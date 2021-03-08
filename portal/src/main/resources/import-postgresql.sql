@@ -1,1 +1,0 @@
-insert into sbp.company (id, company_name) values ('7f000001-7551-1dd1-8175-51bddab10000', 'inzent');
