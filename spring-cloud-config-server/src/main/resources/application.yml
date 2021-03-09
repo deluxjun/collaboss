@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: collaboss-spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        bootstrap: true
+#        git:
+#          uri: http://github.com/deluxjun/~
+
+server:
+  port: ${port:8888}

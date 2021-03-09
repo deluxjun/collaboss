@@ -5,20 +5,23 @@
     <packaging>pom</packaging>
     <modules>
         <module>portal</module>
+        <module>spring-cloud-config-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.4.RELEASE</version>
+        <version>2.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jj</groupId>
-    <artifactId>sbp</artifactId>
+    <groupId>com.jj.collaboss</groupId>
+    <artifactId>collaboss</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sbp</name>
-    <description>smartbiz project</description>
+    <name>collaboss</name>
+    <description>collaboss project</description>
 
     <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <java.version>11</java.version>
     </properties>
 
