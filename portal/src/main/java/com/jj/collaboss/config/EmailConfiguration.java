@@ -9,7 +9,7 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 
-//@PropertySource(value={"classpath:application.properties"})
+//@PropertySource(value={"classpath:application.yml"})
 @org.springframework.context.annotation.Configuration
 public class EmailConfiguration {
 
